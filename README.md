@@ -1,1 +1,1 @@
-# memoization
+# Memoization is JavaScript
