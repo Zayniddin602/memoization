@@ -23,7 +23,7 @@ console.time("First call");
 console.log(clumsysquare(9467));
 console.timeEnd("First call");
 
-// use the same value two times
+// Use the same value two times
 console.time("Second call");
 console.log(clumsysquare(9467));
 console.timeEnd("Second call");
