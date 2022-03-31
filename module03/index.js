@@ -29,17 +29,16 @@ const makeArr = (n, i) => {
 // console.log(makeArr(700_000, 690_000));
 // console.timeEnd("Simple #3")
 
-
 const memoArr = memoize(makeArr);
 
-console.time("Memo #1")
+console.time("Memo #1");
 console.log(memoArr(70_000, 69_000));
-console.timeEnd("Memo #1")
+console.timeEnd("Memo #1");
 
-console.time("Memo #2")
+console.time("Memo #2");
 console.log(memoArr(70_000, 69_000));
-console.timeEnd("Memo #2")
+console.timeEnd("Memo #2");
 
-console.time("Memo #3")
+console.time("Memo #3");
 console.log(memoArr(70_000, 69_000));
-console.timeEnd("Memo #3")
+console.timeEnd("Memo #3");
